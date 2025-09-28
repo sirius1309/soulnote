@@ -12,9 +12,14 @@
 :root{
   --bg-color: #fff;
   --text-color: #000;
+  --text-color-2nd: #333;
 }
 
 body{
   background-color: var(--bg-color);
   color: var(--text-color);
+}
+
+.container{
+  padding: 64px 14px 14px 14px;
 }
